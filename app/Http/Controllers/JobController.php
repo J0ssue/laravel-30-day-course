@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Mail\JobPosted;
 use App\Models\Job;
+use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\Facades\Mail;
 
